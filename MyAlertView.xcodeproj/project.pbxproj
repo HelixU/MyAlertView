@@ -15,6 +15,10 @@
 		94C17ED61D9445B500EFBB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C17ED41D9445B500EFBB19 /* LaunchScreen.storyboard */; };
 		94C17EE11D9445B600EFBB19 /* MyAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C17EE01D9445B600EFBB19 /* MyAlertViewTests.m */; };
 		94C17EEC1D9445B600EFBB19 /* MyAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C17EEB1D9445B600EFBB19 /* MyAlertViewUITests.m */; };
+		94C17EFB1D94475200EFBB19 /* MyAlertBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C17EFA1D94475200EFBB19 /* MyAlertBaseView.m */; };
+		94C17EFE1D9448FC00EFBB19 /* MyAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C17EFD1D9448FC00EFBB19 /* MyAlertManager.m */; };
+		94C17EFF1D9448FC00EFBB19 /* MyAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C17EFD1D9448FC00EFBB19 /* MyAlertManager.m */; };
+		94C17F001D9448FC00EFBB19 /* MyAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C17EFD1D9448FC00EFBB19 /* MyAlertManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		94C17EE71D9445B600EFBB19 /* MyAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C17EEB1D9445B600EFBB19 /* MyAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlertViewUITests.m; sourceTree = "<group>"; };
 		94C17EED1D9445B600EFBB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C17EF91D94475200EFBB19 /* MyAlertBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertBaseView.h; sourceTree = "<group>"; };
+		94C17EFA1D94475200EFBB19 /* MyAlertBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertBaseView.m; sourceTree = "<group>"; };
+		94C17EFC1D9448FC00EFBB19 /* MyAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertManager.h; sourceTree = "<group>"; };
+		94C17EFD1D9448FC00EFBB19 /* MyAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +117,11 @@
 				94C17ED21D9445B500EFBB19 /* Assets.xcassets */,
 				94C17ED41D9445B500EFBB19 /* LaunchScreen.storyboard */,
 				94C17ED71D9445B500EFBB19 /* Info.plist */,
+				94C17EF91D94475200EFBB19 /* MyAlertBaseView.h */,
+				94C17EFA1D94475200EFBB19 /* MyAlertBaseView.m */,
 				94C17EC61D9445B500EFBB19 /* Supporting Files */,
+				94C17EFC1D9448FC00EFBB19 /* MyAlertManager.h */,
+				94C17EFD1D9448FC00EFBB19 /* MyAlertManager.m */,
 			);
 			path = MyAlertView;
 			sourceTree = "<group>";
@@ -273,6 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C17EFE1D9448FC00EFBB19 /* MyAlertManager.m in Sources */,
+				94C17EFB1D94475200EFBB19 /* MyAlertBaseView.m in Sources */,
 				94C17ECE1D9445B500EFBB19 /* ViewController.m in Sources */,
 				94C17ECB1D9445B500EFBB19 /* AppDelegate.m in Sources */,
 				94C17EC81D9445B500EFBB19 /* main.m in Sources */,
@@ -283,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C17EFF1D9448FC00EFBB19 /* MyAlertManager.m in Sources */,
 				94C17EE11D9445B600EFBB19 /* MyAlertViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C17F001D9448FC00EFBB19 /* MyAlertManager.m in Sources */,
 				94C17EEC1D9445B600EFBB19 /* MyAlertViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
